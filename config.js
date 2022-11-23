@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Andrew',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -21,19 +21,22 @@ const CONFIG = {
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
 	greetingNight: 'Go to Sleep!',
+	
+	// Theme
+	theme: 'latte-macchiato',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: 'd0d85b4ae7ec0aaa3c4e04684426532f', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '56.4620',
+	defaultLongitude: '2.9707',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -61,7 +64,7 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.google.com/',
 		},
 		{
 			id: '3',
@@ -77,15 +80,15 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Reddit',
+			name: '4ch',
 			icon: 'glasses',
-			link: 'https://reddit.com',
+			link: 'https://boards.4channel.org/g/',
 		},
 		{
 			id: '6',
 			name: 'Odysee',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com/',
 		},
 	],
 
@@ -139,20 +142,20 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Sunbather',
+					link: 'https://www.youtube.com/watch?v=GfbLWHT7vUU',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Circle Thinking',
+					link: 'https://www.youtube.com/watch?v=VlS9r2mb8aA&list=OLAK5uy_lygku6g3wb2TnVLd7fUpYvvvcocj1vneE',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'White Halo',
+					link: 'https://www.youtube.com/watch?v=u7IKmtFnJuo',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'All the Footprints',
+					link: 'https://www.youtube.com/watch?v=ezpuogyNf9w',
 				},
 			],
 		},
